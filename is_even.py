@@ -165,3 +165,10 @@ def isEven(n):
                     return True
     return False
 
+def isEven(n):
+  """
+  I don't know map is sometimes cool
+  credits: Darksorcen
+  """
+  return list(map(lambda x: x % 2 == 0, range(n+1)))[n]
+
