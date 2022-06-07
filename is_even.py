@@ -60,7 +60,7 @@ from itertools import cycle
 
 def isEven(n):
     """
-    this one is mine (or at least i've never seen it here)
+    this one is mine (or at least i've never seen it anywhere)
     """
     res = cycle([True, False])
     for index, value in enumerate(res):
