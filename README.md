@@ -1,6 +1,6 @@
 # is-even
 a collection of stupid way to find if a number is even (inspired by r/ProgrammerHumor)<br>
-(please do not PM me to say some function are not working, i know)
+(please do not PM me to say some function are not working, i know)<br>
 don't forget to leave a ⭐! 
 
 # feel free to contribute !
