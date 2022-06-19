@@ -172,3 +172,5 @@ def isEven(n):
   """
   return list(map(lambda x: x % 2 == 0, range(n+1)))[n]
 
+def isEven(n):
+    return n in [i for i in range(1000) if i%2 == 0 and n <1000]
