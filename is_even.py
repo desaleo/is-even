@@ -139,6 +139,7 @@ def isEven(n):
   
 import random
 random.seed(5) # TODO: find the seed who always work
+
 def isEven(n):
     """
     i'm right!... most of the time
@@ -152,11 +153,13 @@ def factorial(n):
     for i in range(1, n+1):
         res *= i
     return res
+
 def is_prime(n):
     return (factorial(n-1) + 1) % n == 0
+
 def isEven(n):
     """
-    i'm not even gonna make you think i understand what append here
+    using Goldbach's conjecture ("Every even integer greater than 2 can be expressed as the sum of two primes")
     credit: u/allIsayislicensed
     """
     for x in range(3, n+1):
@@ -165,12 +168,14 @@ def isEven(n):
                     return True
     return False
 
+
 def isEven(n):
     """
     I don't know map is sometimes cool
     credits: Darksorcen
     """
     return list(map(lambda x: x % 2 == 0, range(n+1)))[n]
+
 
 def isEven(n):
     """
