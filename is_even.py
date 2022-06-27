@@ -166,9 +166,14 @@ def isEven(n):
     return False
 
 def isEven(n):
-  """
-  I don't know map is sometimes cool
-  credits: Darksorcen
-  """
-  return list(map(lambda x: x % 2 == 0, range(n+1)))[n]
+    """
+    I don't know map is sometimes cool
+    credits: Darksorcen
+    """
+    return list(map(lambda x: x % 2 == 0, range(n+1)))[n]
 
+def isEven(n):
+    """
+    (i know range objects cannot take float as parameters)
+    """
+    return abs(n) in range(0, float("+inf"), 2)
