@@ -179,6 +179,6 @@ def isEven(n):
 
 def isEven(n):
     """
-    (i know range objects cannot take float as parameters)
+    optimization of the previous one
     """
-    return abs(n) in range(0, float("+inf"), 2)
+    return abs(n) in range(0, n+1, 2)
