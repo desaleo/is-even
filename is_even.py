@@ -182,3 +182,10 @@ def isEven(n):
     optimization of the previous one
     """
     return abs(n) in range(0, n+1, 2)
+
+def isEven(n):
+    """
+    Why don't use filter ? Filter is cool
+    credits: Semanteo
+    """
+    return list(filter(lambda x: x%2 == 0, range(n+1)))
