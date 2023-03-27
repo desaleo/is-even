@@ -60,7 +60,7 @@ from itertools import cycle
 
 def isEven(n):
     """
-    this one is mine (or at least i've never seen it anywhere)
+    like the previous one but memory efficient
     """
     res = cycle([True, False])
     for index, value in enumerate(res):
@@ -118,8 +118,8 @@ def isEven(n):
     i'm not paid enough to do your work
     all credits to u/FalconBusiness4913
     """
-    ans = input("Was the number you entered even ?")
-    return ans == "yes":
+    ans = input("Was the number you entered even ? (y/n)")
+    return ans == "y"
 
       
 def isEven(n):
@@ -182,3 +182,9 @@ def isEven(n):
     optimization of the previous one
     """
     return abs(n) in range(0, n+1, 2)
+
+def isEven(n):
+    """
+    the bit operator wizard
+    """
+    return bool(~n & 1)
