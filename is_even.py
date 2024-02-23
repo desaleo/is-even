@@ -188,3 +188,17 @@ def isEven(n):
     the bit operator wizard
     """
     return bool(~n & 1)
+
+def decider(number):
+    """
+    Substraction is the best equation
+    u/SuVitoIX
+    """
+    number = abs(number)
+    j = number
+    while True:
+        j -= 2
+        if j == 0 or number == 0:
+            return "Even"
+        elif j == 1:
+            return "Odd"
